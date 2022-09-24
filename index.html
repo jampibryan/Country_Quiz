@@ -1,0 +1,118 @@
+<!-- https://www.youtube.com/watch?v=M_ICcIPlbCA -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="contenedor_nav">
+        <h1>Country Quiz</h1>
+        <h2>Juego de capitales</h2>
+      </div>
+    </div>
+
+    <!-- <form action=""> -->
+
+    <div class="contenedor_pregunta">
+      <h2 class="pregunta">1 - ¿Cuál es la capital de Peru?</h2>
+
+      <div class="respuesta" id="two_respuesta_incorrecta1">
+        <input type="radio" id="capitalP1" name="capitalP" value="la paz" />
+        <label for="capitalP1">La Paz</label>
+      </div>
+
+      <div class="respuesta" id="two_respuesta_incorrecta2">
+        <input type="radio" id="capitalP2" name="capitalP" />
+        <label for="capitalP2">Ciudad del Perú</label>
+      </div>
+
+      <div class="respuesta" id="two_respuesta_correcta">
+        <input type="radio" id="capitalP3" name="capitalP" value="lima" />
+        <label for="capitalP3">Lima</label>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------- -->
+    <div class="contenedor_pregunta">
+      <h2 class="pregunta">2 - ¿Cuál es la capital de Italia?</h2>
+
+      <div class="respuesta" id="one_respuesta_incorrecta1">
+        <input type="radio" id="capital1" name="capitalI" value="turin" />
+        <label for="capital1">Turín</label>
+      </div>
+
+      <div class="respuesta" id="one_respuesta_incorrecta2">
+        <input type="radio" id="capital2" name="capitalI" value="napoles" />
+        <label for="capital2">Nápoles</label>
+      </div>
+
+      <div class="respuesta" id="one_respuesta_correcta">
+        <input type="radio" id="capital3" name="capitalI" value="roma" />
+        <label for="capital3">Roma</label>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------- -->
+
+    <div class="contenedor_pregunta">
+      <h2 class="pregunta">3 - ¿Cuál es la capital de Suecia?</h2>
+
+      <div class="respuesta" id="three_respuesta_incorrecta1">
+        <input type="radio" id="capitalS1" name="capitalS" value="gotemburgo" />
+        <label for="capitalS1">Gotemburgo</label>
+      </div>
+
+      <div class="respuesta" id="three_respuesta_correcta">
+        <input type="radio" id="capitalS2" name="capitalS" value="estocolmo" />
+        <label for="capitalS2">Estocolmo</label>
+      </div>
+
+      <div class="respuesta" id="three_respuesta_incorrecta2">
+        <input type="radio" id="capitalS3" name="capitalS" value="luna" />
+        <label for="capitalS3">Luna</label>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------- -->
+
+    <div class="contenedor_pregunta">
+      <h2 class="pregunta">4 - ¿Cuál es la capital de Canadá?</h2>
+
+      <div class="respuesta" id="forth_respuesta_incorrecta1">
+        <input type="radio" id="capitalC1" name="capitalC" value="condberro" />
+        <label for="capitalC1">Condberro</label>
+      </div>
+
+      <div class="respuesta" id="forth_respuesta_incorrecta2">
+        <input type="radio" id="capitalC2" name="capitalC" value="toronto" />
+        <label for="capitalC2">Toronto</label>
+      </div>
+
+      <div class="respuesta" id="forth_respuesta_correcta">
+        <input type="radio" id="capitalC3" name="capitalC" value="ottawa" />
+        <label for="capitalC3">Ottawa</label>
+      </div>
+    </div>
+
+    <!-- BOTÓN DE VERIFICAR -->
+    <div class="contenedor_btn">
+      <button class="btn_verificar" id="onVerificador" type="submit">
+        CORREGIR
+      </button>
+    </div>
+    <div class="contenedor_btn">
+      <button class="btn_verificar" id="onResetear" type="submit">
+        RESETEAR
+      </button>
+    </div>
+
+    <!-- </form> -->
+    <h2 id="resultado"></h2>
+    <script src="script.js"></script>
+  </body>
+</html>
